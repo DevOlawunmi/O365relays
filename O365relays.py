@@ -26,7 +26,7 @@ datapath = input() + '/endpoints_clientid_latestversion.txt'
 print("Where would you like the Office365 URL list to be stored at? Example: C:/users/john.doe/downloads/", end=' ')
 url_list = input() + '/365_url_list.csv'
 
-print("Where would you like the Office365 firewal ACL list to be stored at? Example: C:/users/john.doe/downloads/", end=' ')
+print("Where would you like the Office365 firewall ACL list to be stored at? Example: C:/users/john.doe/downloads/", end=' ')
 ip_list = input() + '/365_ip_list.csv'
 
 # fetch client ID and version if data exists; otherwise create new file
